@@ -4,6 +4,7 @@ using UnityEngine;
 public class SpellScriptableObject : ScriptableObject
 {
     [Header("Basic Settings")]
+    public float ManaCost = 5f;
     public float DamageAmount = 10f;
     public float Lifetime = 2f;
     public float Speed = 15f;
